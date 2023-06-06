@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.footer{
+  background-color: rgb(19, 96, 32);
+  text-align: center;
+  color: white;
+}
+
+.text-color{
+  color: rgb(81,135,78);
+}
+
+.text-center{
+  color: rgb(81,135,78);
+  text-align: center;
+}
+
+.about{
+  background-color: rgb(75,129,77);
+  text-align: center;
+  color: white;
+}
+
+.navbar{
+  background-color: rgb(74,133,75);
+  color: white;
+}
+
+.choose{
+  color: rgb(73,134,78);
+  text-align: center;
+  background-color: rgb(235,231,219);
+}
+
+.product{
+  color: rgb(93,125,97);
+  text-align: center;
+  background-color: white;
 }
