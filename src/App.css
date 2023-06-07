@@ -75,3 +75,31 @@
   text-align: center;
   background-color: white;
 }
+
+.img{
+  margin-left: 120px;
+}
+
+.btn{
+  background-color:white;
+  color: rgb(74,133,75);
+  display: inline-block;
+  top: 25px;
+  right:170px;
+  position: absolute;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border:none;
+}
+
+.btn:hover{
+  border: none;
+  /* color: white; */
+  /* background: transparent; */
+  box-shadow: 0px 0px 20px white;
+ transition:400ms ease all;
+}
