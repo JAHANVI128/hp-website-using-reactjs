@@ -37,13 +37,6 @@
   }
 } */
 
-
-.footer{
-  background-color: rgb(19, 96, 32);
-  text-align: center;
-  color: white;
-}
-
 .text-color{
   color: rgb(81,135,78);
 }
@@ -59,12 +52,6 @@
   color: white;
 }
 
-.navbar{
-  background-color: rgb(74,133,75);
-  color: white;
-  /* position: fixed; */
-}
-
 .choose{
   color: rgb(73,134,78);
   text-align: center;
@@ -77,42 +64,111 @@
   background-color: white;
 }
 
+*{
+  padding: 0;
+  margin: 0%;
+  /* box-sizing: border-box; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+  background-color:rgb(74,133,75);
+  color: #fff;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 0% 4%;
+  position: relative;
+}
+
+.nav-left{
+  display: flex;
+  /* position: absolute; */
+}
+
+.nav-left ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0% 2%;
+  width: 30%;
+}
+
+.nav-left ul a li{
+  padding: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.nav-left ul a li:hover{
+  color: rgb(5, 40, 12);
+}
+
+.nav-left ul li{
+  padding: 0 4%;
+  margin: 12% 5%;
+  color: #fff;
+}
+
+.nav-left ul li:hover{
+  cursor: pointer;
+}
+
+.nav-left ul a{
+  text-decoration: none;
+}
+
+.footer{
+  background-color: rgb(19, 96, 32);
+  text-align: center;
+  color: white;
+}
+
 .img{
-  margin-left: 120px;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 
 .btn{
   background-color:white;
   color: rgb(74,133,75);
-  display: inline-block;
   top: 25px;
-  right:170px;
+  right:100px;
   position: absolute;
-  display: inline-block;
   padding: 10px 15px;
   font-size: medium;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
   border:none;
+  margin-top: 2px;
 }
 
 .btn:hover{
   border: none;
-  /* color: white; */
-  /* background: transparent; */
   box-shadow: 0px 0px 20px white;
  transition:400ms ease all;
-}
-
-body > div > div{
-  margin-top: 30px;
-  margin-left: 315px;
-  font-weight: bold;
-  font-size: 53px;
 }
 
 id{
   color: rgb(253,188,22);
   font-size: 100px;
+  font-weight: bold;
+}  
+
+img.d{
+  margin-top: 0px;
+  margin-left: 760px;
+  height: 400px;
+  width: 400px;
+  z-index: -1;
+}
+
+img.p{
+  height: 330px;
+  width: 350px;
+  padding: 0%;
+  margin-left: 760px;
+  position: absolute;
+  top: 74px;
+  right: 200px;
 }

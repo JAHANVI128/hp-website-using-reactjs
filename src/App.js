@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <header>
-       
-       </header>
+        <App/>
+      </header>
      </div>
   );
 }
