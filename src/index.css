@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,214 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.text-color{
+    color: rgb(81,135,78);
+}
+
+.text-center{
+    color: rgb(81,135,78);
+    text-align: center;
+}
+
+.about{
+    background-color: rgb(75,129,77);
+    text-align: center;
+    color: white;
+}
+
+.choose{
+    color: rgb(73,134,78);
+    text-align: center;
+    background-color: rgb(235,231,219);
+}
+
+*{
+    padding: 0;
+    margin: 0%;
+    /* box-sizing: border-box; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color:rgb(74,133,75);
+    color: #fff;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 0% 4%;
+    position: relative;
+}
+
+.nav-left{
+    display: flex;
+    /* position: absolute; */
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0% 2%;
+    width: 30%;
+}
+
+.nav-left ul a li{
+    padding: 10px;
+    transition: all .5s ease-in-out;
+ }
+
+ .nav-left ul a li:hover{
+    color: rgb(5, 40, 12);
+ }
+
+.nav-left ul li{
+    padding: 0 4%;
+    margin: 12% 5%;
+    color: #fff;
+}
+
+.nav-left ul li:hover{
+    cursor: pointer;
+}
+
+.nav-left ul a{
+    text-decoration: none;
+}
+
+.img{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.btn{
+    background-color:white;
+    color: rgb(74,133,75);
+    top: 25px;
+    right:100px;
+    position: absolute;
+    padding: 10px 15px;
+    font-size: medium;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border:none;
+    margin-top: 2px;
+}
+
+.btn:hover{
+    border: none;
+    box-shadow: 0px 0px 20px white;
+   transition:400ms ease all;
+}
+
+id{
+    color: rgb(253,188,22);
+    font-size: 100px;
+    font-weight: bold;
+}  
+
+img.d{
+    top: 0px;
+    margin-left: 760px;
+    height: 400px;
+    width: 400px;
+    /* z-index: -1; */
+}
+
+img.p{
+    height: 330px;
+    width: 350px;
+    padding: 0%;
+    margin-left: 760px;
+    position: absolute;
+    top: 150px;
+    right: 210px;
+}
+
+.header p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10rem;
+ }
+
+ .header #heading-pickle{
+    color: #F2BB13;
+    font-size: 4.5rem;
+ }
+
+ /* sec-2 */
+
+ .sec-2 .product{
+    margin-top: 5%;
+ }
+
+ .sec-2 .product h1{
+    color: rgb(79,116,87);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sec-2 .product .products .item .img-div{
+    text-align: center;
+    margin: 3px;
+    /* height: 15rem; */
+}
+
+.sec-2 .product .products .item .img-div img{
+    width: 13rem;
+}
+
+.sec-2 .product .products .item h2{
+    color: rgb(95,146,99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.sec-2 .product .products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3% 0;
+}
+
+.sec-2 .product .products .item p{
+    font-size: 0.8rem;
+}
+
+.sec-2 .product .products .item{
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 10px #ecece7; 
+    margin: 1%;
+    width: 17%;
+}
+
+.sec-2 .product .products .item .p-detail{
+    text-align: center;
+    line-height: 140%;
+    padding: 5% 0;
+}
+
+.sec-2 .product .products .item .buy{
+    text-align: center;
+    padding: 2% 6%;
+    color: white;
+    background-color: rgb(74,133,75);
+    border: none;
+    border-radius: 5%;
+    cursor:pointer;
+}
+
+.sec-2 .product .products .item .buy:hover{
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgb(178, 181, 178);
+}
+
+
+.footer{
+    background-color: rgb(19, 96, 32);
+    text-align: center;
+    color: white;
 }
